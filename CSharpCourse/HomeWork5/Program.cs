@@ -25,18 +25,16 @@ namespace Homework5
         Console.WriteLine("Колесо № {0} машины {1} вращается");
         class Door
         {
-    private int numberOfDoors;
-    interface IDoor
-    {
+         private int numberOfDoors;
+        interface IDoor
+        {
         void Open();
         Console.Write("Дверь № {0} машины {1} ");
         Console.Write(isOpenDoor? "открыта" : "закрыта");
         Console.WriteLine();
-    }
-    }
-    class Body
+        }
+        }
+class Body
 {
-
 }
 }
-
