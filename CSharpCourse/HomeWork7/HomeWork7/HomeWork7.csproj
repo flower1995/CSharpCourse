@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7167EF4A-BC9D-4DEF-83EA-D14B40EAB6C0}</ProjectGuid>
+    <ProjectGuid>{344CD76A-603A-4F99-B525-3DFD68610B7D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HomeWork4</RootNamespace>
-    <AssemblyName>HomeWork4</AssemblyName>
+    <RootNamespace>HomeWork7</RootNamespace>
+    <AssemblyName>HomeWork7</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Circle.cs" />
+    <Compile Include="Account.cs" />
+    <Compile Include="Bank.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Operations.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Sector.cs" />
-    <Compile Include="Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
